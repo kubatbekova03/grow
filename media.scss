@@ -1,0 +1,1733 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+  #hero {
+    .hero {
+      &--buttons {
+        padding: 1px 0px 1px 1px;
+
+        &__btn {
+          width: 152px;
+        }
+      }
+
+      &--menu {
+        width: 80%;
+      }
+    }
+  }
+  #pageOne {
+    .pageOne {
+      padding: 90px 0 0 34px;
+
+      &--emile {
+        &__zara {
+          width: 10%;
+        }
+
+        &__inputs {
+          height: 26px;
+          width: 15%;
+        }
+      }
+
+      &--make {
+        &__flower {
+          margin: 36px 0;
+          width: 45%;
+          font-size: 13px
+        }
+
+        &__blue {
+          font-size: 44px;
+          margin-top: -11px;
+        }
+
+        &__persons {
+          font-size: 44px;
+          margin-top: 21px;
+        }
+
+        &__persons {
+          font-size: 44px;
+          margin-top: 94px;
+        }
+      }
+    }
+  }
+  #world {
+    .world {
+      &__bottom {
+        &--grow {
+          margin-top: 15%;
+
+          &__tell {
+            &--one {
+              font-size: 29px;
+            }
+          }
+        }
+
+        &--have {
+          width: 100%;
+          height: 157px;
+
+          &__make {
+            margin: 39px;
+          }
+        }
+      }
+    }
+  }
+  #growth {
+    .growth {
+      padding: 50px 0;
+
+      &--law {
+        width: 85%;
+        padding: 0 20px;
+
+        &__play {
+          &--soldier {
+            p {
+              font-size: 12px;
+            }
+
+            padding: 12px 0;
+
+          }
+        }
+      }
+
+
+    }
+  }
+  #power {
+    .power {
+      &--card {
+        &__super {
+          width: 70%;
+        }
+      }
+
+      &--title {
+        &--title {
+          h5 {
+            font-size: 12px;
+          }
+        }
+
+        h1 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  #content {
+    .content {
+      &--shout {
+        &__icon {
+          p {
+            font-weight: 400;
+            font-size: 13px;
+          }
+
+          h5 {
+            padding: 13px 12px;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+  #brands {
+    .brands {
+
+      &--island {
+        width: 70%;
+        padding: 0 150px;
+      }
+
+      &--river {
+        font-size: 25px;
+      }
+    }
+  }
+  #bem {
+    .bem {
+      &--team {
+        &__sidebar {
+          margin: 20px 10px;
+          border-radius: 10px;
+          width: 375px;
+          height: 138px;
+
+          &--begin {
+            p {
+              padding: 4px 0;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+  #motion {
+    width: 100%;
+
+    .motion {
+      padding: 0 0 0 60px;
+
+      img {
+        width: 50%;
+      }
+
+      &--web {
+        &__btn {
+          color: #FFFFFF;
+          margin: 0 70px;
+          width: 40%;
+          height: 40px;
+        }
+      }
+
+      p {
+        font-size: 9px;
+      }
+
+      h1 {
+        padding: 44px 0;
+        font-size: 25px
+      }
+    }
+  }
+
+}
+
+@media (max-width: 992px) {
+  #hero {
+    .hero {
+      &--menu {
+        display: none;
+      }
+
+      .hamburger-menu {
+        display: block;
+      }
+
+      &--demo {
+        font-size: 12px;
+        padding: 0 0 0 0px;
+      }
+
+      &--buttons {
+        margin: 0 0 0 20px;
+
+        &__btn {
+          display: none;
+        }
+
+        &__log {
+          display: none;
+
+        }
+      }
+
+    }
+  }
+  #world {
+    .world {
+      &--brands {
+        &__newyork {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    .hero {
+      &--menu {
+        font-size: 10px;
+      }
+
+      &--buttons {
+        &__btn {
+          width: 141px;
+          height: 24px;
+          font-size: 9px;
+        }
+      }
+
+      &--demo {
+        font-size: 9px;
+      }
+    }
+  }
+  #pageOne {
+    background: url(/img/wire.png) no-repeat center/cover;
+    width: 100%;
+    height: 375px;
+
+    .pageOne {
+      padding: 123px 0 0 34px;
+
+      &--emile {
+        &__inputs {
+          height: 24px;
+          width: 20%;
+          font-size: 9px;
+        }
+
+        &__zara {
+          width: 15%;
+          height: 28px;
+          font-size: 9px;
+
+        }
+      }
+
+      &--make {
+        &__flower {
+          margin: 15px 0;
+          width: 35%;
+          font-size: 10px;
+        }
+
+        &__blue {
+          font-size: 34px;
+          margin-top: -7px;
+        }
+
+        &__persons {
+          font-size: 34px;
+          margin-top: 71px;
+        }
+
+        &__person {
+          margin: -62px 0;
+          font-weight: 500;
+          font-size: 15px;
+          color: #000000;
+        }
+      }
+    }
+  }
+  #world {
+    .world {
+
+      &__bottom {
+        margin-top: 0%;
+
+        &--grow {
+          &__tell {
+            &--four {
+              font-size: 10px;
+            }
+
+            &--go {
+              padding: 1px 0;
+
+              &__three {
+                font-size: 9px;
+
+              }
+
+              &__two {
+                width: 157px;
+                height: 33px;
+              }
+            }
+
+            &--one {
+              font-size: 20px;
+            }
+          }
+
+          margin-top: 2%;
+        }
+
+        &--have {
+          width: 100%;
+          height: 120px;
+
+          &__needed {
+            &--seven {
+              font-size: 25px;
+            }
+          }
+
+          &__make {
+            &--zero {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+
+      &--brands {
+        &__newyork {
+          width: 25em;
+          height: 1em;
+          font-size: 29px;
+        }
+
+        &__meet {
+          font-size: 15px;
+        }
+
+        hr {
+          width: 15%;
+          padding: 0 5%;
+          margin: -0.9000000000000004em 80px 0 16em;
+          height: 1px;
+        }
+
+        &__by {
+          text-align: center;
+          padding: 20px 20px;
+          font-size: 15px
+        }
+      }
+
+    }
+  }
+  #growth {
+    .growth {
+      &--law {
+        &__play {
+          &--soldier {
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+
+        width: 100%;
+        padding: 0 0px;
+      }
+
+      &__pad {
+        h1 {
+          font-size: 35px;
+        }
+      }
+
+    }
+  }
+  #content {
+    .content {
+      &--shout {
+        &__icon {
+          img {
+            width: 20%;
+          }
+
+          h5 {
+            font-size: 13px;
+
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 10px;
+
+          }
+        }
+
+      }
+
+    }
+  }
+  #brands {
+    .brands {
+      &--island {
+        &__cline {
+          p {
+            font-size: 12px;
+
+          }
+
+          h2 {
+            font-size: 15px;
+          }
+        }
+
+        width: 70%;
+        padding: 0 92px;
+      }
+    }
+
+  }
+  #bem {
+    .bem {
+      &--team {
+        &__sidebar {
+          &--begin {
+            p {
+              margin: -9px 0 -9px 0;
+              font-size: 9px;
+            }
+
+          }
+
+          width: 260px;
+          height: 118px;
+
+          &--stop {
+            h2 {
+              padding: 0 3px;
+              font-size: 12px;
+            }
+          }
+
+
+        }
+      }
+    }
+  }
+  #motion .motion h1 {
+    padding: 5px 0;
+    font-size: 20px;
+  }
+  #motion .motion img {
+    width: 45%;
+  }
+  #motion .motion {
+    padding: 0 0 0 3px;
+  }
+  #motion .motion p {
+    font-size: 7px;
+    width: 49em;
+  }
+  #motion .motion--web__btn {
+    margin: 0 26px;
+    width: 40%;
+    height: 33px;
+    font-size: 9px;
+  }
+  #foot .foot--data__back h5 {
+    margin: -4px 0;
+    font-size: 12px;
+    line-height: 28px;
+  }
+  #foot .foot--dob__avto h3 {
+    font-size: 10px;
+  }
+  #foot .foot--data {
+    padding: 1em 0;
+  }
+
+
+  #menu__toggle {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  #pageOne {
+    width: 100%;
+    height: 308px;
+
+    .pageOne {
+      padding: 123px 0 0 4px;
+
+      &--emile {
+        &__inputs {
+          height: 24px;
+          width: 20%;
+          font-size: 9px;
+        }
+
+        &__zara {
+          width: 15%;
+          height: 28px;
+          font-size: 9px;
+
+        }
+      }
+
+      &--make {
+        &__flower {
+          margin: 15px 0;
+          width: 45%;
+          font-size: 9px;
+        }
+
+        &__blue {
+          font-size: 24px;
+          margin-top: -7px;
+        }
+
+        &__persons {
+          font-size: 24px;
+          margin-top: 71px;
+        }
+
+        &__person {
+          margin: -62px 0;
+          font-weight: 500;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  #world {
+    .world {
+      &__bottom {
+        margin-top: 0%;
+
+        &--grow {
+          &__tell {
+            &--four {
+              font-size: 10px;
+            }
+
+            &--go {
+              padding: 1px 0;
+
+              &__three {
+                font-size: 9px;
+
+              }
+
+              &__two {
+                width: 142px;
+                height: 27px;
+              }
+            }
+
+            &--one {
+              font-size: 20px;
+            }
+          }
+
+          margin-top: 2%;
+        }
+
+        &--have {
+          width: 100%;
+          height: 120px;
+
+          &__needed {
+            p {
+              font-size: 9px;
+            }
+
+            margin: -9px;
+
+            &--seven {
+              font-size: 20px;
+            }
+          }
+
+          &__make {
+            p {
+              font-size: 9px;
+            }
+
+            margin: 19px;
+
+            &--zero {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+
+      &--brands {
+        &__newyork {
+          border: none;
+        }
+
+        &__meet {
+          font-size: 15px;
+        }
+
+        hr {
+          width: 15%;
+          padding: 0 5%;
+          margin: -0.9000000000000004em 80px 0 12em;
+        }
+
+        &__by {
+          text-align: center;
+          padding: 20px 20px;
+          font-size: 15px
+        }
+      }
+
+    }
+  }
+  #growth {
+    .growth {
+      &--law {
+        &__pad {
+          h5 {
+            font-size: 16px;
+
+          }
+
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &__play {
+          &--soldier {
+            img {
+              width: 20%;
+            }
+
+            h5 {
+              padding: 10px 33px;
+              font-size: 15px;
+            }
+
+            p {
+              font-size: 8px;
+            }
+          }
+        }
+
+        width: 100%;
+        padding: 0 0px;
+      }
+
+
+    }
+  }
+  #power {
+    .power {
+
+      &--btn {
+        &__one {
+          width: 138px;
+          height: 39px;
+          font-size: 9px;
+        }
+
+        &__two {
+          width: 137px;
+          height: 36px;
+          font-size: 9px;
+        }
+      }
+
+      &--card {
+        &__super {
+          width: 70%;
+        }
+      }
+
+      &--title {
+        padding: 29px 0;
+
+        &--title {
+          h5 {
+            font-size: 12px;
+          }
+        }
+
+        h1 {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  #brands {
+    .brands {
+      &--island {
+        width: 80%;
+        padding: 0 34px;
+
+        &__cline {
+          p {
+            font-size: 10px;
+
+          }
+
+          h2 {
+            font-size: 15px;
+          }
+        }
+
+      }
+    }
+
+  }
+  #bem {
+    .bem {
+      &--page {
+        h5 {
+          font-size: 12px;
+        }
+
+        h1 {
+          font-size: 25px;
+
+        }
+      }
+
+      &--team {
+        &__sidebar {
+          width: 196px;
+          height: 117px;;
+
+          &--begin {
+            p {
+              margin: -16px 0 -11px 0;
+              font-size: 9px;
+            }
+
+          }
+
+          &--stop {
+            img {
+              width: 20%;
+            }
+
+            h2 {
+              font-size: 10px;
+            }
+          }
+
+
+        }
+      }
+    }
+  }
+  #motion {
+    width: 100%;
+
+    .motion {
+      padding: 20px 0;
+
+
+      &--web {
+        width: 60%;
+
+        &__btn {
+          margin: 0 38px;
+          width: 30%;
+          height: 31px;
+          font-size: 8px;
+        }
+      }
+
+      p {
+        font-size: 9px;
+        width: 28em
+      }
+
+      h1 {
+        padding: 4px 0;
+        font-size: 20px
+      }
+    }
+  }
+  #foot {
+    .foot {
+
+      &--data {
+        &__back {
+          &--tom {
+            padding: 70px 0 0 0;
+          }
+
+          h4 {
+            margin: 26px 0;
+            font-size: 12px;
+          }
+
+          h5 {
+            margin: -4px 0;
+            font-size: 10px;
+            line-height: 15px;
+
+          }
+        }
+      }
+
+      &--dob {
+        &__avto {
+          h3 {
+            font-size: 9px;
+          }
+
+          img {
+            width: 20%;
+          }
+        }
+
+      }
+
+
+    }
+  }
+  #nav {
+    .nav {
+      &--block {
+        &__winter {
+          img {
+            width: 20%;
+          }
+        }
+      }
+    }
+  }
+  #motion .motion img {
+    width: 35%;
+  }
+  #motion .motion--web__btn {
+    width: 50%;
+    height: 33px;
+  }
+  #nav .nav--block__veb--teg {
+    margin: 21px;
+    font-size: 25px
+  }
+}
+
+@media (max-width: 451px) {
+  #pageOne {
+    height: 230px;
+
+    .pageOne {
+      padding: 123px 0 0 4px;
+
+      &--emile {
+        &__inputs {
+          height: 17px;
+          width: 20%;
+          font-size: 7px;
+        }
+
+        &__zara {
+          height: 24px;
+
+
+        }
+      }
+
+      &--make {
+        &__flower {
+          margin: 6px 0;
+          width: 55%;
+          font-size: 8px;
+        }
+
+        &__blue {
+          font-size: 20px;
+        }
+
+        &__persons {
+          font-size: 20px;
+        }
+
+        &__person {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  #world {
+    .world {
+
+      &__bottom {
+        margin-top: 0%;
+
+        &--grow {
+          &__tell {
+            &--four {
+              font-size: 10px;
+            }
+
+            &--go {
+              padding: 1px 0;
+
+              &__three {
+                font-size: 9px;
+
+              }
+
+              &__two {
+                width: 142px;
+                height: 27px;
+              }
+            }
+
+            &--one {
+              font-size: 18px;
+            }
+          }
+
+          margin-top: 2%;
+        }
+
+        &--have {
+          width: 100%;
+          height: 107px;
+
+          &__needed {
+            p {
+              font-size: 7px;
+            }
+
+            margin: -9px;
+
+            &--seven {
+              font-size: 18px;
+            }
+          }
+
+          &__make {
+            margin: -21px;
+
+            p {
+              font-size: 7px;
+            }
+
+            margin: 19px;
+
+            &--zero {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
+      &--brands {
+        &__newyork {
+          width: 13em;
+          height: 16px;
+        }
+
+        &__meet {
+          font-size: 13px;
+        }
+
+        hr {
+          width: 15%;
+          padding: 0 5%;
+          margin: -0.9000000000000004em 87px 0 9em;
+        }
+
+        &__by {
+          font-size: 13px
+        }
+      }
+
+    }
+  }
+  #growth {
+    .growth {
+      &--law {
+        &__play {
+          &--soldier {
+            display: flex;
+            flex-direction: column;
+
+          }
+        }
+      }
+    }
+  }
+  #brands {
+    .brands {
+      &--island {
+        width: 80%;
+
+        #brands {
+          .brands {
+            &--island {
+              padding: 0 9px;
+
+              &__cline {
+                p {
+                  font-size: 7px;
+
+                }
+
+                h2 {
+                  font-size: 15px;
+                }
+              }
+
+            }
+          }
+
+        }
+
+        &__cline {
+          p {
+            font-size: 10px;
+
+          }
+
+          h2 {
+            font-size: 15px;
+          }
+        }
+
+      }
+    }
+
+  }
+  #bem {
+    .bem {
+      &--page {
+        h5 {
+          font-size: 15px;
+        }
+
+        h1 {
+          font-size: 25px;
+
+        }
+      }
+
+      &--team {
+        &__sidebar {
+          width: 294px;
+          height: 142px;
+
+          &--begin {
+            p {
+              margin: -16px 0 -11px 0;
+              font-size: 10px;
+            }
+
+          }
+
+          &--stop {
+            img {
+              width: 20%;
+            }
+
+            h2 {
+              font-size: 10px;
+            }
+          }
+
+
+        }
+      }
+    }
+  }
+  #motion {
+    width: 100%;
+    .motion {
+      &--web {
+        width: 100%;
+
+
+        &__btn {
+          width: 40%;
+          height: 28px;
+        }
+      }
+      p {
+        width: 40em;
+
+      }
+      h1 {
+        padding: 4px 0;
+        font-size: 20px
+      }
+    }
+  }
+  #today {
+    .today {
+      &--three {
+        h1 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  #today .today--three__card--goo {
+
+    font-size: 10px;
+  }
+  #today .today--three__card--peopol {
+    font-size: 12px;
+  }
+  #foot {
+    .foot {
+      &--data {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        &__back {
+
+          &--tom {
+            margin: -3px 0;
+          }
+
+          h4 {
+            font-size: 10px;
+
+          }
+
+          h5 {
+            margin: -4px 0;
+
+
+          }
+        }
+      }
+
+      &--dob {
+        padding: 0 0 0 14em;
+
+        &__avto {
+          h3 {
+            font-size: 9px;
+            line-height: 10px;
+          }
+
+          img {
+            width: 30%;
+          }
+        }
+
+      }
+
+
+    }
+  }
+  #nav .nav--block__veb--teg {
+    margin: 21px;
+    font-size: 25px;
+  }
+  #motion .motion {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 400px) {
+
+  #pageOne {
+    width: 100%;
+    height: 308px;
+
+    .pageOne {
+      padding: 123px 0 0 4px;
+
+      &--emile {
+        &__inputs {
+          border: none;
+          height: 19px;
+          width: 20%;
+          font-size: 7px;
+        }
+
+        &__zara {
+          height: 20px;
+          font-size: 7px;
+
+        }
+      }
+
+      &--make {
+        &__flower {
+          margin: 15px 0;
+          width: 45%;
+          font-size: 9px;
+        }
+
+        &__blue {
+          font-size: 24px;
+          margin-top: -7px;
+        }
+
+        &__persons {
+          font-size: 24px;
+          margin-top: 71px;
+        }
+
+        &__person {
+          margin: -62px 0;
+          font-weight: 500;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  #world {
+    .world {
+      &__bottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+
+        &--grow {
+          &__tell {
+            &--four {
+              font-size: 10px;
+            }
+
+            &--go {
+              padding: 1px 0;
+
+              &__three {
+                font-size: 9px;
+
+              }
+
+              &__two {
+                width: 142px;
+                height: 27px;
+              }
+            }
+
+            &--one {
+              font-size: 20px;
+            }
+          }
+
+          margin-top: 2%;
+        }
+
+        &--have {
+
+          width: 100%;
+          height: 120px;
+
+          &__needed {
+            p {
+              font-size: 9px;
+            }
+
+            margin: -9px;
+
+            &--seven {
+              font-size: 20px;
+            }
+          }
+
+          &__make {
+            margin: 50px;
+
+            p {
+              font-size: 9px;
+            }
+
+            &--zero {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+
+      &--brands {
+        &__newyork {
+          display: none;
+        }
+
+        &__meet {
+          font-size: 15px;
+        }
+
+        hr {
+          width: 15%;
+          padding: 0 5%;
+          margin: -0.9000000000000004em 80px 0 12em;
+        }
+
+        &__by {
+          text-align: center;
+          padding: 20px 20px;
+          font-size: 15px
+        }
+      }
+
+    }
+  }
+  #growth {
+    .growth {
+      &--law {
+        &__pad {
+          h5 {
+            font-size: 16px;
+
+          }
+
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &__play {
+          &--soldier {
+            img {
+              width: 20%;
+            }
+
+            h5 {
+              padding: 10px 33px;
+              font-size: 15px;
+            }
+
+            p {
+              font-size: 8px;
+            }
+          }
+        }
+
+        width: 100%;
+        padding: 0 0px;
+      }
+
+
+    }
+  }
+
+  #power {
+    .power {
+
+      &--btn {
+        &__one {
+          width: 138px;
+          height: 39px;
+          font-size: 9px;
+        }
+
+        &__two {
+          width: 137px;
+          height: 36px;
+          font-size: 9px;
+        }
+      }
+
+      &--card {
+        &__super {
+          width: 70%;
+        }
+      }
+
+      &--title {
+        padding: 29px 0;
+
+        &--title {
+          h5 {
+            font-size: 12px;
+          }
+        }
+
+        h1 {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  #brands {
+    .brands {
+      &--island {
+        width: 80%;
+        padding: 0 34px;
+
+        &__cline {
+          p {
+            font-size: 10px;
+
+          }
+
+          h2 {
+            font-size: 15px;
+          }
+        }
+
+      }
+    }
+
+  }
+  #bem {
+    .bem {
+      &--page {
+        h5 {
+          font-size: 12px;
+        }
+
+        h1 {
+          font-size: 25px;
+
+        }
+      }
+
+      &--team {
+        &__sidebar {
+          width: 196px;
+          height: 117px;;
+
+          &--begin {
+            p {
+              margin: -16px 0 -11px 0;
+              font-size: 9px;
+            }
+
+          }
+
+          &--stop {
+            img {
+              width: 15%;
+
+            }
+
+            h2 {
+              font-size: 10px;
+            }
+          }
+
+
+        }
+      }
+    }
+  }
+
+  #motion {
+    width: 100%;
+
+    .motion {
+      padding: 20px 0;
+
+
+      &--web {
+        width: 60%;
+
+        &__btn {
+          margin: 0 38px;
+          width: 30%;
+          height: 31px;
+          font-size: 8px;
+        }
+      }
+
+      p {
+        font-size: 9px;
+        width: 28em
+      }
+
+      h1 {
+        padding: 4px 0;
+        font-size: 20px
+      }
+    }
+  }
+
+  #foot {
+    .foot {
+
+      &--data {
+        &__back {
+          &--tom {
+            padding: 70px 0 0 0;
+          }
+
+          h4 {
+            margin: 26px 0;
+            font-size: 12px;
+          }
+
+          h5 {
+            margin: -4px 0;
+            font-size: 10px;
+            line-height: 15px;
+
+          }
+        }
+      }
+
+      &--dob {
+        &__avto {
+          h3 {
+            font-size: 9px;
+          }
+
+          img {
+            width: 20%;
+          }
+        }
+
+      }
+
+
+    }
+  }
+  #nav {
+    .nav {
+      &--block {
+        &__winter {
+          img {
+            width: 20%;
+          }
+        }
+      }
+    }
+  }
+
+  #content {
+    .content {
+      &--shout {
+        margin: 0 70px;
+
+        &__icon {
+
+
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+
+  #world {
+    .world {
+      &__bottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+
+        &--grow {
+          &__tell {
+            &--four {
+              font-size: 10px;
+            }
+
+            &--go {
+              padding: 1px 0;
+
+              &__three {
+                font-size: 9px;
+
+              }
+
+              &__two {
+                width: 142px;
+                height: 27px;
+              }
+            }
+
+            &--one {
+              font-size: 20px;
+            }
+          }
+
+          margin-top: 2%;
+        }
+
+        &--have {
+
+          width: 100%;
+          height: 120px;
+
+          &__needed {
+            margin: 37px;
+
+            p {
+              font-size: 9px;
+            }
+
+            &--seven {
+              font-size: 20px;
+            }
+          }
+
+          &__make {
+            margin: 50px;
+
+            p {
+              font-size: 9px;
+            }
+
+            &--zero {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+
+      &--brands {
+        &__newyork {
+          display: none;
+        }
+
+        &__meet {
+          font-size: 15px;
+        }
+
+        hr {
+          width: 15%;
+          padding: 0 5%;
+          margin: -0.9em 80px 0 8em;
+        }
+
+        &__by {
+          text-align: center;
+          padding: 20px 20px;
+          font-size: 15px
+        }
+      }
+
+    }
+  }
+
+}
+
+@media (max-width: 360px) {
+  #content .content--shout__icon h5 {
+    font-size: 10px;
+  }
+  #motion .motion--web__btn {
+    margin: 0 27px;
+    width: 50%;
+    height: 33px;
+    font-size: 8px;
+  }
+  #today .today--three__card--peopol {
+    font-size: 5px;
+  }
+  #today .today--three__card--goo {
+    font-size: 6px;
+  }
+  #today {
+    background: url(/img/si.png);
+    width: 100%;
+    height: 155px;
+  }
+  #power .power--title h5 {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 30px;
+    color: #000000;
+  }
+}
+
+
+
+
+
+
+
+

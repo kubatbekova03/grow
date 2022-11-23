@@ -1,0 +1,594 @@
+@import "mixin";
+@import "media";
+@import "global";
+#hero {
+  padding: 10px 10px;
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--demo {
+      font-size: 13px;
+      padding: 0 0 0 30px;
+    }
+
+    &--menu {
+      display: flex;
+      justify-content: space-around;
+      width: 60%;
+      font-family: 'Roboto', sans-serif;
+
+      a {
+        color: black;
+      }
+    }
+
+    &--buttons {
+      display: flex;
+      align-items: center;
+
+      &__btn {
+        @include btn;
+        width: 187px;
+        height: 35px;
+        color: #FFFFFF;
+      }
+
+      &__log {
+        display: flex;
+        padding: 0 0 0 40px;
+        font-size: 14px;
+        color: black;
+
+      }
+    }
+  }
+}
+#pageOne {
+  background: url("/img/wire.png") no-repeat center/cover;
+  width: 100%;
+  height: 700px;
+  .pageOne {
+    padding: 90px 0;
+    &--make {
+      &__person {
+        margin: 15px 0;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+      }
+
+      &__persons {
+        font-size: 64px;
+        margin-top: 40px;
+      }
+
+      &__blue {
+        font-size: 64px;
+        color: #6F2DFF;
+      }
+
+      &__flower {
+        margin: 30px 0;
+        width: 40%;
+        font-size: 20px;
+      }
+    }
+    &--emile {
+
+      &__inputs {
+
+        @include in
+      }
+
+      &__zara {
+        margin: -5px;
+        background: #6F2CFF;
+        border-radius: 0 27.5px 27.5px 0;
+        width: 15%;
+        height: 30px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+#world {
+  .world {
+    &--brands {
+      &__by {
+        @include meets;
+      }
+      hr {
+        width: 5%;
+        cursor: pointer;
+        padding: 0 5%;
+        margin: -0.9000000000000004em 80px 0 36em;
+        height: 2px;
+        background: #6F2CFF;
+      }
+      &__newyork {
+        display: flex;
+        justify-content: space-between;
+
+      }
+      &__meet {
+        @include meets
+      }
+    }
+    &__bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+      margin-top: 10%;
+      &--have {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        &__make {
+          margin: 70px;
+
+          &--zero {
+            font-size: 35px;
+          }
+
+          &--ten {
+            font-size: 12px;
+          }
+        }
+
+        &__needed {
+          margin: 30px;
+
+          &--seven {
+            font-size: 40px;
+          }
+
+          &--nine {
+            font-size: 12px;
+          }
+        }
+      }
+
+      &--grow {
+        margin-top: 20%;
+
+
+        &__tell {
+          align-items: center;
+
+          &--one {
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            line-height: 45px;
+          }
+
+          &--go {
+            display: flex;
+            align-items: center;
+            padding: 30px 0;
+
+
+            &__two {
+              @include btn;
+            }
+
+            &__three {
+              font-family: 'Roboto', sans-serif;
+              font-size: 14px;
+              padding: 20px;
+
+            }
+
+
+          }
+
+          &--four {
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+
+          }
+
+          &--lin {
+            border-bottom: 2px black solid;
+            width: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+#growth {
+  .growth {
+    padding: 30px 0;
+    &--law {
+      &__pad {
+        text-align: center;
+        padding-bottom: 79px;
+
+        h1 {
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 45px;
+          color: #000000;
+        }
+
+        h5 {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #000000;
+        }
+      }
+      &__play {
+        @include title;
+
+        &--soldier {
+
+          @include soldier;
+
+          h5 {
+            @include five
+          }
+
+          p {
+            @include pe;
+          }
+        }
+      }
+    }
+  }
+}
+#power {
+  background: #F5F5F5;
+  .power {
+    &--title {
+      padding: 90px 0;
+      text-align: center;
+      h1 {
+        font-size: 40px;
+        color: #000000;
+      }
+      h5 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        color: #000000;
+      }
+    }
+
+    &--card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__super {
+        width: 90%;
+      }
+    }
+
+    &--btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 0;
+
+      &__two {
+        @include btn;
+      }
+
+      &__one {
+        @include tabs;
+      }
+    }
+  }
+}
+#content {
+  .content {
+    padding: 80px 0;
+    &--platform {
+      @include one
+    }
+    &--shout {
+      @include title;
+
+      &__icon {
+        @include soldier;
+
+        h5 {
+          @include five;
+
+        }
+
+        p {
+          @include pe;
+
+        }
+      }
+    }
+  }
+}
+#brands {
+  .brands {
+    &--river {
+      @include one;
+    }
+    &--island {
+      @include df;
+      &__cline {
+        display: flex;
+        flex-direction: column;
+        &--clout {
+          width: 300px;
+          height: 204px;
+        }
+
+        &--bed {
+          width: 150px;
+          height: 35px;
+        }
+
+        h2 {
+          text-align: center;
+          font-size: 2em;
+          padding: 13px 0;
+        }
+
+        p {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 22px;
+          color: #6F2CFF;
+          padding: 0 0 10px 0;
+          text-align: center;
+        }
+      }
+    }
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+#bem {
+  .bem {
+    &--page {
+      padding: 50px;
+      h1 {
+        @include titles;
+      }
+      h5 {
+        @include five;
+        text-align: center;
+      }
+    }
+    &--team {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      &__sidebar {
+        margin: 20px 10px;
+        border-radius: 10px;
+        width: 460px;
+        height: 163px;
+        background: #17002E;
+        padding: 30px 20px;
+
+        &--stop {
+          display: flex;
+          align-items: center;
+
+          img {
+
+          }
+
+          h2 {
+            padding: 0 20px;
+            @include text;
+          }
+
+          p {
+            @include text1;
+            padding: 10px 0;
+
+          }
+        }
+
+        &--begin {
+          p {
+            color: #eeeeee;
+            padding: 20px 0;
+            line-height: 29px;
+          }
+        }
+
+        &--begin2 {
+          height: 2px;
+          background: #FFFFFF;
+          width: 90%;
+        }
+      }
+
+    }
+  }
+}
+#motion {
+  background: #F5F5F5;
+  .motion {
+    display: flex;
+    align-items: center;
+    &--web {
+      &__glob {
+        width: 50%;
+        padding: 0 0 0 90px;
+      }
+
+      h1 {
+        padding: 40px 0;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        color: #17002E;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 30px;
+        color: #000000;
+        padding: 40px 0;
+      }
+
+      &__btn {
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        color: #FFFFFF;
+        margin: 0 15px;
+        width: 30%;
+        height: 40px;
+        border-radius: 30px;
+        background: #6F2CFF
+      }
+    }
+  }
+}
+#today {
+  background: url("/img/si.png");
+  width: 100%;
+  height: 250px;
+  .today {
+    &--three {
+      padding: 30px 0;
+      h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+      &__card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+
+        &--peopol {
+          @include in;
+        }
+
+        &--goo {
+          background: #6F2CFF;
+          width: 15%;
+          height: 30px;
+          font-size: 12px;
+          border-radius: 0px 27.5px 27.5px 0px;
+          color: white;
+        }
+      }
+    }
+  }
+}
+#nav {
+  .nav {
+    &--block {
+      &__winter {
+        display: flex;
+        justify-content: center;
+      }
+      h5 {
+        text-align: center;
+      }
+      &__veb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+        &--teg {
+          margin: 20px;
+          font-size: 30px;
+          color: black;
+        }
+      }
+    }
+  }
+}
+#foot {
+  background: #20003C;
+
+  .foot {
+    &--data {
+      display: flex;
+      justify-content: space-between;
+      padding: 3em 0;
+      &__back {
+        &--tom {
+          margin: 10px;
+        }
+
+        h4 {
+          margin: 20px 0;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 21px;
+          color: #FFFFFF;
+        }
+
+        h5 {
+          margin: 10px 0;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          color: #FFFFFF;
+
+          a {
+            color: #FFFFFF;
+          }
+
+        }
+      }
+    }
+    &--dob {
+      text-align: center;
+      padding: 0 0 0 20em;
+      &__avto {
+        h3 {
+          font-size: 13px;
+          line-height: 40px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+@mixin in {
+  border-radius: 27.5px 0 0 27.5px;
+  height: 28px;
+  width: 20%;
+  font-size: 12px;
+  text-align: center;
+  border: none;
+}
+
+@mixin meets {
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 18px;
+
+}
+
+@mixin btn {
+  &:hover {
+    transform: scale(1.1);
+    background: blueviolet;
+  }
+  width: 175px;
+  height: 47px;
+  background: #6F2CFF;
+  border-radius: 30px;
+}
+
+@mixin tabs {
+  &:hover {
+    transform: scale(1.1);
+  }
+  margin: 0 15px;
+  width: 175px;
+  height: 47px;
+  background: white;
+  border-radius: 30px;
+}
+
+@mixin title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@mixin soldier {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+@mixin five {
+  padding: 10px 50px;
+  font-size: 19px;
+  color: #000000;
+}
+
+@mixin pe {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+}
+
+@mixin one {
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+  padding: 40px 0;
+}
+
+@mixin brands-text {
+  font-family: "serif", sans-serif;
+  font-size: 1.4em;
+  color: black;
+}
+
+@mixin df {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin titles {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+
+}
+
+@mixin text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+@mixin text1 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
